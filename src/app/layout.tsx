@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Professionelle Rohr- und Kanalreinigung in Ingolstadt und Umgebung. 24/7 Notdienst – auch an Feiertagen. Schnell, sauber, zuverlässig.",
   keywords: "Rohrreinigung Ingolstadt, Kanalreinigung, Klempner Notdienst, 24/7 Sanitär",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
