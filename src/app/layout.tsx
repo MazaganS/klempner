@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={inter.className}>
-      <body className="min-h-screen bg-[#040810] text-white antialiased">{children}</body>
+      <body className="min-h-screen bg-[#040810] text-white antialiased overflow-x-hidden">{children}</body>
     </html>
   );
 }
