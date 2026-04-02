@@ -6,38 +6,52 @@ import { SectionHeader } from "./ServicesSection";
 
 const reviews = [
   {
-    name: "Thomas K.",
-    date: "März 2025",
+    name: "Valentyna B.",
+    date: "vor 10 Monaten",
     rating: 5,
-    text: "Super schneller Service – das Problem wurde sofort gelöst! Mitten in der Nacht angerufen und innerhalb einer Stunde war jemand da. Absolut empfehlenswert!",
+    text: "Ich bin absolut zufrieden mit dem Service von A&G Rohr- und Kanalreinigung! Der 24/7-Notdienst hat mir wirklich den Tag gerettet. Innerhalb kürzester Zeit war ein freundlicher und kompetenter Mitarbeiter vor Ort und hat das Problem professionell behoben. Die Arbeit wurde schnell, sauber und zuverlässig erledigt – und das zu einem fairen Preis. Besonders hervorheben möchte ich die transparente Kommunikation und die ehrliche Beratung. Sehr empfehlenswert!",
     location: "Ingolstadt",
   },
   {
-    name: "Maria S.",
-    date: "Februar 2025",
+    name: "Рита Т.",
+    date: "vor 10 Monaten",
     rating: 5,
-    text: "Freundlich, kompetent und zuverlässig. Der Techniker hat alles erklärt und einen fairen Preis gemacht. Genau so stellt man sich einen guten Handwerker vor.",
-    location: "Neuburg a.d. Donau",
+    text: "Der beste !!!! Schnell Freundlich und das aller wichtigste Profi!!! Preisklasse für Notfalldienst Kundenfreundlich, Kann ich nur jedem weiterempfehlen der Probleme hat. Bei uns war es nicht wie gedacht nur eine einfache Verstopfung sondern viel komplexer und trotz dessen hat Team sich sehr viel Zeit genommen. Rohre sind wieder frei! :-)",
+    location: "Ingolstadt",
   },
   {
-    name: "Ahmed R.",
-    date: "Januar 2025",
+    name: "Angelika S.",
+    date: "vor 10 Monaten",
+    rating: 5,
+    text: "Die Rohrreinigung war schnell, zuverlässig und professionell. Der Mitarbeiter war freundlich, hat sauber gearbeitet und das Problem effizient gelöst. Sehr empfehlenswert!",
+    location: "Ingolstadt",
+  },
+  {
+    name: "Hellen",
+    date: "vor 8 Monaten",
+    rating: 5,
+    text: "Super schnelles und kompetentes Team! Hatten einen Notfall in der Küche mit den Rohren und uns wurde sofort geholfen und das an einem Freitag Abend! Sehr zuverlässig!",
+    location: "Ingolstadt",
+  },
+  {
+    name: "Natalie D.",
+    date: "vor 8 Monaten",
     rating: 4,
-    text: "24/7 Notdienst hat mir den Tag gerettet! Verstopfter Abfluss kurz vor einer Familienfeier – in unter 45 Minuten war alles wieder frei. Danke!",
+    text: "Arbeit professionell gut und zügig erledigt bin zufrieden aber ich persönlich finde den Wochenendzuschlag von 100% zu hoch.",
     location: "Ingolstadt",
   },
   {
-    name: "Petra M.",
-    date: "Dezember 2024",
+    name: "Muhammad M.",
+    date: "vor 10 Monaten",
     rating: 5,
-    text: "Sehr professionell und sauber gearbeitet. Nach dem Einsatz war alles tiptop aufgeräumt. Der Preis war völlig in Ordnung für die schnelle Hilfe.",
-    location: "Pfaffenhofen",
+    text: "Beste Kanal Meister. Nur weiter zu empfehlen :)",
+    location: "Ingolstadt",
   },
   {
-    name: "Klaus W.",
-    date: "November 2024",
+    name: "Sonny L.",
+    date: "vor 10 Monaten",
     rating: 5,
-    text: "Schon zweimal genutzt und jedes Mal top! Klare Kommunikation, pünktlich, und das Problem wurde dauerhaft gelöst. Mein Go-to Klempner in der Region.",
+    text: "Top gearbeitet",
     location: "Ingolstadt",
   },
 ];
@@ -73,12 +87,11 @@ export default function ReviewsSection() {
           viewport={{ once: true }}
         >
           <div className="flex">
-            {[1, 2, 3, 4].map((i) => (
+            {[1, 2, 3, 4, 5].map((i) => (
               <StarIcon key={i} filled />
             ))}
-            <StarIcon filled={false} half />
           </div>
-          <span className="text-white font-bold text-lg">4.4</span>
+          <span className="text-white font-bold text-lg">4.9</span>
           <span className="text-slate-500 text-sm">Google Bewertungen</span>
         </motion.div>
 
