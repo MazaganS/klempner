@@ -127,7 +127,7 @@ export default function ReviewsSection() {
                     </div>
                     <div>
                       <div className="text-white font-semibold text-sm">{review.name}</div>
-                      <div className="text-slate-500 text-xs">{review.location} · {review.date}</div>
+                      <div className="text-slate-500 text-xs">{review.location}</div>
                     </div>
                   </div>
                 </motion.div>
